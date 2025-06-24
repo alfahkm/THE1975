@@ -4,14 +4,14 @@ import '../styles/MerchandiseSection.css';
 const merchandiseData = [
   {
     name: 'The 1975 T-Shirt',
-    image: 'assets/merch-tshirt.jpg',
+    image: 'assets/1972-1.png',
     description: 'High quality cotton t-shirt with band logo.',
     price: '$25',
     link: 'https://store.example.com/tshirt',
   },
   {
     name: 'The 1975 Hoodie',
-    image: 'assets/merch-hoodie.jpg',
+    image: 'assets/1972-1.png',
     description: 'Comfortable hoodie with embroidered logo.',
     price: '$50',
     link: 'https://store.example.com/hoodie',

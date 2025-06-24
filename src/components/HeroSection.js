@@ -3,7 +3,7 @@ import '../styles/HeroSection.css';
 
 const HeroSection = () => {
 const heroStyle = {
-    backgroundImage: `url('/assets/hero-image.jpg')`,
+    backgroundImage: `url('/assets/1972-1.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

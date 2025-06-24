@@ -4,14 +4,14 @@ import '../styles/MusicSection.css';
 const musicData = [
   {
     title: 'Album One',
-    cover: 'assets/album1-cover.jpg',
+    cover: 'assets/1972-1.png',
     description: 'The debut album with hit singles.',
     streamingLink: 'https://open.spotify.com/album/1',
     purchaseLink: 'https://store.example.com/album1',
   },
   {
     title: 'Album Two',
-    cover: 'assets/album2-cover.jpg',
+    cover: 'assets/1972-1.png',
     description: 'The sophomore album with new sounds.',
     streamingLink: 'https://open.spotify.com/album/2',
     purchaseLink: 'https://store.example.com/album2',

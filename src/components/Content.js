@@ -5,12 +5,12 @@ const Content = () => {
   const sectionRef = useRef(null);
 
   const albums = [
-    { title: 'Being Funny In A Foreign Language', artist: 'The 1975', cover: '/assets/album1-cover.jpg', link: '#' },
-    { title: 'Album Two', artist: 'The 1975', cover: '/assets/album2-cover.jpg', link: '#' },
-    { title: 'Album Three', artist: 'The 1975', cover: '/assets/album3-cover.jpg', link: '#' },
-    { title: 'Album Four', artist: 'The 1975', cover: '/assets/album4-cover.jpg', link: '#' },
-    { title: 'Album Five', artist: 'The 1975', cover: '/assets/album5-cover.jpg', link: '#' },
-    { title: 'Album Six', artist: 'The 1975', cover: '/assets/album6-cover.jpg', link: '#' },
+    { title: 'Being Funny In A Foreign Language', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: 'Album Two', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: 'Album Three', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: 'Album Four', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: 'Album Five', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: 'Album Six', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
   ];
 
   useEffect(() => {
