@@ -40,6 +40,23 @@
   width: 100%;
   border-radius: 4px;
   margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  animation: pulseScale 6s ease-in-out infinite;
+}
+
+.merch-image:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .merch-item h3 {
@@ -68,10 +85,22 @@
   color: #0a1e3f;
   background-color: #ffffff;
   transition: background-color 0.3s ease;
+  animation: pulseScale 6s ease-in-out infinite;
+  cursor: pointer;
 }
 
 .merch-link:hover {
   background-color: #ffffff;
+  animation-play-state: paused;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 /* Responsive */

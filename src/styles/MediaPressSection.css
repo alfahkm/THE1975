@@ -49,8 +49,28 @@
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .media-press-section h2 {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .media-press-section h2 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .media-press-section h2 {
+    font-size: 1.75rem;
+  }
+  .media-press-list {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .media-press-item {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
   }
 }

@@ -56,10 +56,28 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  cursor: pointer;
+  animation: pulseScale 6s ease-in-out infinite;
 }
 
 .album-item:hover .album-image img {
   transform: scale(1.05);
+  animation-play-state: paused;
+}
+
+.album-image img:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+  animation-play-state: paused;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .album-info {
@@ -86,14 +104,57 @@
   letter-spacing: 1px;
   border-radius: 4px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: pulseScale 6s ease-in-out infinite;
+  cursor: pointer;
 }
 
 .listen-btn:hover {
   background: #f0f0f0;
   transform: translateY(-2px);
+  animation-play-state: paused;
+}
+
+.listen-btn:active {
+  animation: clickScale 0.2s ease forwards;
+}
+
+@keyframes clickScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .content {
+    padding: 70px 30px;
+  }
+
+  .content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+  }
+
+  .album-grid {
+    gap: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .content {
     padding: 60px 20px;

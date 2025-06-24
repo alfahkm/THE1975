@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  /* Removed scroll-snap-type for normal smooth scroll */
 }
 
 body {
@@ -28,7 +28,26 @@ section {
 a {
   color: #FFFFFF;
   text-decoration: none;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.1s ease;
+  animation: pulseScale 6s ease-in-out infinite;
+  cursor: pointer;
+}
+
+a:hover {
+  animation-play-state: paused;
+}
+
+a:active {
+  transform: scale(0.95);
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 a:hover {

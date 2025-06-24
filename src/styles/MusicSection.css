@@ -40,6 +40,23 @@
   width: 100%;
   border-radius: 4px;
   margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  animation: pulseScale 6s ease-in-out infinite;
+}
+
+.music-cover:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .music-item h3 {

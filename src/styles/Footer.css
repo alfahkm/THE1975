@@ -16,6 +16,10 @@
 
 .social-icons {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .social-icons a {
@@ -32,6 +36,13 @@
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 35px 15px;
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
     padding: 30px 10px;
@@ -41,5 +52,11 @@
   .social-icons a {
     margin: 0 10px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons {
+    gap: 5px;
   }
 }
