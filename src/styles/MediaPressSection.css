@@ -1,0 +1,56 @@
+.media-press-section {
+  padding: 60px 20px;
+  background-color: #001f8b;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.media-press-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.media-press-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.media-press-item {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.media-press-item:hover {
+  background-color: rgba(0, 255, 234, 0.1);
+}
+
+.media-press-link {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.media-press-link h3 {
+  margin: 0 0 5px 0;
+  color: #ffffff;
+}
+
+.media-press-link p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #c0c0c0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .media-press-section h2 {
+    font-size: 2rem;
+  }
+}

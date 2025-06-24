@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import TourSection from './components/TourSection';
+import MusicSection from './components/MusicSection';
+import AboutSection from './components/AboutSection';
+import MerchandiseSection from './components/MerchandiseSection';
+import MediaPressSection from './components/MediaPressSection';
+import NewsletterSignup from './components/NewsletterSignup';
+import SocialMediaFeeds from './components/SocialMediaFeeds';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import './styles/App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <HeroSection />
+      <TourSection />
+      <MusicSection />
+      <AboutSection />
+      <MerchandiseSection />
+      <MediaPressSection />
+      <NewsletterSignup />
+      <SocialMediaFeeds />
+      <Content />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
