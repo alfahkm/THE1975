@@ -4,17 +4,24 @@ import '../styles/MerchandiseSection.css';
 const merchandiseData = [
   {
     name: 'The 1975 T-Shirt',
-    image: 'assets/1972-1.png',
-    description: 'High quality cotton t-shirt with band logo.',
-    price: '$25',
-    link: 'https://store.example.com/tshirt',
+    image: 'assets/146.jpg',
+    description: 'BLUR - ALBUM COVER TSHIRT BLACK IMPORT FROM UK OFFICIAL MERCH BRAND NEW SIZE MEDIUM.',
+    price: 'IDR: 350.000 ONLYYYY',
+    link: 'https://www.instagram.com/p/DLRU83lPpuM/?utm_source=ig_web_copy_link&igsh=dm82Z2Y0aGhjdHF6',
   },
   {
     name: 'The 1975 Hoodie',
-    image: 'assets/1972-1.png',
-    description: 'Comfortable hoodie with embroidered logo.',
-    price: '$50',
-    link: 'https://store.example.com/hoodie',
+    image: 'assets/1678.jpg',
+    description: 'BILLIE EILISH - HIT ME HARD AND SOFT TRACKLIST TSHIRT BLACK OFFICIAL MERCH BRAND NEW SIZE MEDIUM.',
+    price: 'IDR: 330.000 ONLYYYY',
+    link: 'https://www.instagram.com/p/DLRZNXwP0qm/?utm_source=ig_web_copy_link&igsh=MTdwcjYzNHU4eHM2cw==',
+  },
+  {
+    name: 'The 1975 Hoodie',
+    image: 'assets/3636.jpg',
+    description: 'THE CRANBERRIES FAITHFUL DEPARTED COVER TSHIRT BLAC IMPORT FROM UK OFFICIAL MERCHBRAND NEW SIZE MEDIUM, LARGE.',
+    price: 'IDR: 350.000 ONLYYYY',
+    link: 'https://www.instagram.com/p/DLSazvkP7gk/?utm_source=ig_web_copy_link&igsh=MTR6bGk5MjQ0d29qbQ==',
   },
   // Add more merchandise items as needed
 ];

@@ -41,6 +41,7 @@ const Navbar = () => {
                 <a href="#tour" className="menu-item" onClick={() => setMenuOpen(false)}>Tour</a>
                 <a href="#music" className="menu-item" onClick={() => setMenuOpen(false)}>Music</a>
                 <a href="#merchandise" className="menu-item" onClick={() => setMenuOpen(false)}>Shop</a>
+                <a href="#media-press" className="menu-item" onClick={() => setMenuOpen(false)}>Media &amp; Press</a>
               </div>
             </>
           ) : (
@@ -48,7 +49,8 @@ const Navbar = () => {
               <a href="#about" className="menu-item">About</a>
               <a href="#tour" className="menu-item">Tour</a>
               <a href="#music" className="menu-item">Music</a>
-              <a href="#shop" className="menu-item">Shop</a>
+              <a href="#merchandise" className="menu-item">Shop</a>
+              <a href="#media-press" className="menu-item">Media &amp; Press</a>
             </div>
           )}
         </nav>

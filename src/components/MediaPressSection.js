@@ -3,16 +3,28 @@ import '../styles/MediaPressSection.css';
 
 const mediaPressData = [
   {
-    title: 'Interview with The 1975',
-    source: 'Music Magazine',
-    date: '2024-05-01',
-    link: 'https://musicmagazine.example.com/interview-the1975',
+    title: 'Morfem Bersiap Menggelar Tur Konser Tujuh Titik di Jepang',
+    source: 'detikpop',
+    date: '2024-10-22',
+    link: 'https://voi.id/musik/427185/morfem-bersiap-menggelar-tur-konser-tujuh-titik-di-jepang',
   },
   {
-    title: 'The 1975 New Album Review',
-    source: 'Rock News',
-    date: '2024-04-15',
-    link: 'https://rocknews.example.com/review-the1975-album',
+    title: 'Ketika Green Day Siap Konser di Jakarta Lagi Setelah 29 Tahun...',
+    source: 'kompas.com',
+    date: '2024-08-16',
+    link: 'https://www.kompas.com/hype/read/2024/08/16/085440666/ketika-green-day-siap-konser-di-jakarta-lagi-setelah-29-tahun',
+  },
+  {
+    title: 'The Jansen Awali Tour Kalimantan di Pontianak',
+    source: 'kumparan.com',
+    date: '2024-11-16',
+    link: 'https://kumparan.com/hipontianak/the-jansen-awali-tour-kalimantan-di-pontianak-23vN2WRPNLG',
+  },
+  {
+    title: 'Jarang ke Bandung! MORFEM sukses obati kerinduan para penggemar di Friday Night Live Halfway Bar, apa kata mereka?',
+    source: 'hops.id',
+    date: '2025-06-16',
+    link: 'https://www.hops.id/hot/29415359805/jarang-ke-bandung-morfem-sukses-obati-kerinduan-para-penggemar-di-friday-night-live-halfway-bar-apa-kata-mereka',
   },
   // Add more media/press items as needed
 ];

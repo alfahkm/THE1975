@@ -30,11 +30,11 @@ const Footer = () => {
 
   return (
     <footer className="footer" ref={footerRef}>
-      <p>© 2025 The1975</p>
+      <p>© 2025 MORFEM</p>
       <div className="social-icons">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
+        
+        <a href="https://www.instagram.com/morfem_band/">Instagram</a>
+        
       </div>
     </footer>
   );

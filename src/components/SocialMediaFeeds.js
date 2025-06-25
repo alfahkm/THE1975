@@ -4,7 +4,7 @@ import '../styles/SocialMediaFeeds.css';
 const socialMediaLinks = [
   {
     name: 'Instagram',
-    url: 'https://instagram.com/the1975',
+    url: 'https://www.instagram.com/alfahkm_/',
     icon: (
       <svg width="24" height="24" fill="#00ffea" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.75 2a1 1 0 110 2 1 1 0 010-2zm-4.25 1.25a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 1.5a3 3 0 100 6 3 3 0 000-6z"/>

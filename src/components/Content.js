@@ -40,7 +40,7 @@ const Content = () => {
   return (
     <section className="content" ref={sectionRef}>
       <div className="content-inner">
-        <h2>Latest Albums</h2>
+        <h2>Postingan INSTAGRAM</h2>
         <div className="album-grid">
           {albums.map(({ title, artist, cover, link }) => (
             <div key={title} className="album-item">
@@ -50,7 +50,7 @@ const Content = () => {
               <div className="album-info">
                 <h3>{title}</h3>
                 <p>{artist}</p>
-                <a href={link} className="listen-btn">Listen Now</a>
+                <a href={link} className="listen-btn">Lihat Postingan</a>
               </div>
             </div>
           ))}
