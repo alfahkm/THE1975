@@ -69,14 +69,14 @@ const musicData = [
     title: 'Apapun Dilibas',
     cover: 'assets/592x592bb (6).webp',
     description: '',
-    streamingLink: 'https://open.spotify.com/album/6dVCpQ7oGJD1oYs2fv1t5M?si=fi2hW7afQh-Q7RrL_Lq0Tw',
+    streamingLink: 'https://open.spotify.com/track/6NaXGMzvNsaKMsHEYQhu32?si=9ffd780719cc499e',
     purchaseLink: 'https://store.example.com/album2',
   },
   {
     title: 'INDONESIA',
     cover: 'assets/592x592bb (7).webp',
     description: '',
-    streamingLink: 'https://open.spotify.com/album/1wMj9t5BHQUa6Gz1RKG3VZ?si=r9VcK1WyRMmJCKtp_KnQVg',
+    streamingLink: 'https://open.spotify.com/album/2ghJjKYrxvScTls6DgzahG?si=HXcz1n6LRQW1jr6xQEOvPg',
     purchaseLink: 'https://store.example.com/album2',
   },
   
