@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import '../styles/NewsletterSignup.css';
 
@@ -8,20 +8,23 @@ const NewsletterSignup = () => {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
+  useEffect(() => {
+    emailjs.init('lvXOkVwYo7w9yJHAl'); // Ganti dengan User ID (Public Key) Anda
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email && message) {
       const templateParams = {
-        from_email: email,
+        user_email: email,
         to_email: 'alfapunya36@gmail.com',
-        message: message,
+        user_message: message,
       };
 
       emailjs.send(
-        'YOUR_SERVICE_ID',       // replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID',      // replace with your EmailJS template ID
-        templateParams,
-        'YOUR_USER_ID'           // replace with your EmailJS user ID (public key)
+        'service_xlpozoi',       // replace with your EmailJS service ID
+        'template_lt8wubu',      // replace with your EmailJS template ID
+        templateParams
       )
       .then((response) => {
         setSubmitted(true);
@@ -30,6 +33,7 @@ const NewsletterSignup = () => {
         setError('');
       }, (err) => {
         setError('Gagal mengirim pesan. Silakan coba lagi.');
+        console.error('EmailJS error:', err);
       });
     } else {
       setError('Mohon isi email dan pesan.');
