@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <h1 className="header-title">THE1975</h1>
+        <h1 className="header-title">MORFEM</h1>
         <nav className="nav">
           {isMobile ? (
             <>

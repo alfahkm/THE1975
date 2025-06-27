@@ -3,7 +3,7 @@ import '../styles/HeroSection.css';
 
 const HeroSection = () => {
 const heroStyle = {
-    backgroundImage: `url('/assets/neck deep poster print.jpeg')`,
+    backgroundImage: `url('/assets/thursday-noise-1.jpg')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -18,7 +18,7 @@ const heroStyle = {
 
   return (
     <section className="hero" style={heroStyle}>
-      <h1>Welcome to The1975</h1>
+      <h1>Welcome to MORFEM</h1>
       <p>Official Website</p>
       <div className="scroll-indicator"></div>
     </section>
