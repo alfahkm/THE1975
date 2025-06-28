@@ -3,25 +3,25 @@ import '../styles/MerchandiseSection.css';
 
 const merchandiseData = [
   {
-    name: 'The 1975 T-Shirt',
-    image: 'assets/146.jpg',
-    description: 'BLUR - ALBUM COVER TSHIRT BLACK IMPORT FROM UK OFFICIAL MERCH BRAND NEW SIZE MEDIUM.',
-    price: 'IDR: 350.000 ONLYYYY',
-    link: 'https://www.instagram.com/p/DLRU83lPpuM/?utm_source=ig_web_copy_link&igsh=dm82Z2Y0aGhjdHF6',
+    name: 'Morfem - Morfuzz',
+    image: 'assets/merchandise.webp',
+    description: 'Official Merchandise (Free Poster, Pin & Sticker) | Kaos Band Katun',
+    price: 'IDR: 220.000 ONLYYYY',
+    link: 'https://shopee.co.id/Morfem-Morfuzz-Tshirt-Black-Official-Merchandise-(Free-Poster-Pin-Sticker)-Kaos-Band-Katun-i.381723876.27534335228?sp_atk=c381e4a7-aa35-41c3-94c1-64ed9bb78eaa&xptdk=c381e4a7-aa35-41c3-94c1-64ed9bb78eaa',
   },
   {
-    name: 'The 1975 Hoodie',
-    image: 'assets/1678.jpg',
-    description: 'BILLIE EILISH - HIT ME HARD AND SOFT TRACKLIST TSHIRT BLACK OFFICIAL MERCH BRAND NEW SIZE MEDIUM.',
-    price: 'IDR: 330.000 ONLYYYY',
-    link: 'https://www.instagram.com/p/DLRZNXwP0qm/?utm_source=ig_web_copy_link&igsh=MTdwcjYzNHU4eHM2cw==',
+    name: 'Morfem - Morfrenz',
+    image: 'assets/id-11134207-7rase-m61seqkcbz6wd1.webp',
+    description: 'Official Merchandise',
+    price: 'IDR: 220.000 ONLYYYY',
+    link: 'https://shopee.co.id/Morfem-Morfrenz-Tshirt-Black-Official-Merchandise-i.381723876.29875536360?sp_atk=49a24e10-316a-4094-b8c0-f1bfc83e8650&xptdk=49a24e10-316a-4094-b8c0-f1bfc83e8650',
   },
   {
-    name: 'The 1975 Hoodie',
-    image: 'assets/3636.jpg',
-    description: 'THE CRANBERRIES FAITHFUL DEPARTED COVER TSHIRT BLAC IMPORT FROM UK OFFICIAL MERCHBRAND NEW SIZE MEDIUM, LARGE.',
-    price: 'IDR: 350.000 ONLYYYY',
-    link: 'https://www.instagram.com/p/DLSazvkP7gk/?utm_source=ig_web_copy_link&igsh=MTR6bGk5MjQ0d29qbQ==',
+    name: 'Morfem - Morpyman',
+    image: 'assets/id-11134207-7rask-m5woi01dm1p2b9.webp',
+    description: 'Official Merchandise',
+    price: 'IDR: 220.000 ONLYYYY',
+    link: 'https://shopee.co.id/Morfem-Morpyman-Tshirt-White-Official-Merchandise-i.381723876.27175272301?sp_atk=7386539e-dc67-4db3-a3d9-7e997dc7f6ca&xptdk=7386539e-dc67-4db3-a3d9-7e997dc7f6ca',
   },
   // Add more merchandise items as needed
 ];

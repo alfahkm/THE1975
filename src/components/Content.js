@@ -5,12 +5,11 @@ const Content = () => {
   const sectionRef = useRef(null);
 
   const albums = [
-    { title: 'Being Funny In A Foreign Language', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
-    { title: 'Album Two', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
-    { title: 'Album Three', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
-    { title: 'Album Four', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
-    { title: 'Album Five', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
-    { title: 'Album Six', artist: 'The 1975', cover: '/assets/1975.png', link: '#' },
+    { title: '', artist: '', cover: '/assets/16tahun.jpg', link: 'https://www.instagram.com/p/DJHlSDfSK2c/?utm_source=ig_web_copy_link&igsh=MTMxeGNvdzNxanh4Ng==' },
+    { title: '', artist: '', cover: '/assets/panggung.webp', link: 'https://www.instagram.com/p/DI_bnJtzfh-/?utm_source=ig_web_copy_link&igsh=ZmVxeGlrMHduZXY2' },
+    { title: '', artist: '', cover: '/assets/Mendarat dengan sukses di Jepang..jpg', link: 'https://www.instagram.com/p/DC8PSC1yAEU/?utm_source=ig_web_copy_link&igsh=MWNjaThzdnA4dGJhbA==' },
+    { title: '', artist: '', cover: '/assets/Jumpa di.jpg', link: 'https://www.instagram.com/p/DFfspd4yAiM/?utm_source=ig_web_copy_link&igsh=dG4xZWtuYzRlYngx' },
+    
   ];
 
   useEffect(() => {
